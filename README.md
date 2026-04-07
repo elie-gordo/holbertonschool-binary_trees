@@ -50,3 +50,11 @@ Write a function that inserts a node as the right-child of another node.
 - Returns: pointer to the created node, or `NULL` on failure or if `parent` is `NULL`
 - If `parent` already has a right-child, the new node takes its place and the old right-child becomes the right-child of the new node
 - File: `2-binary_tree_insert_right.c`
+
+## Task 4: Is leaf
+Write a function that checks if a node is a leaf.
+
+- Prototype: `int binary_tree_is_leaf(const binary_tree_t *node);`
+- Returns: `1` if `node` is a leaf, otherwise `0`
+- If `node` is `NULL`, returns `0`
+- File: `4-binary_tree_is_leaf.c`
