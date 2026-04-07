@@ -79,3 +79,11 @@ Write a function that measures the depth of a node in a binary tree.
 - Prototype: `size_t binary_tree_depth(const binary_tree_t *tree);`
 - If `tree` is `NULL`, returns `0`
 - File: `10-binary_tree_depth.c`
+
+## Task 12: Leaves
+Write a function that counts the leaves in a binary tree.
+
+- Prototype: `size_t binary_tree_leaves(const binary_tree_t *tree);`
+- If `tree` is `NULL`, returns `0`
+- A `NULL` pointer is not a leaf
+- File: `12-binary_tree_leaves.c`
