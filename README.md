@@ -58,3 +58,10 @@ Write a function that checks if a node is a leaf.
 - Returns: `1` if `node` is a leaf, otherwise `0`
 - If `node` is `NULL`, returns `0`
 - File: `4-binary_tree_is_leaf.c`
+
+## Task 6: Pre-order traversal
+Write a function that goes through a binary tree using pre-order traversal.
+
+- Prototype: `void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));`
+- If `tree` or `func` is `NULL`, the function does nothing
+- File: `6-binary_tree_preorder.c`
