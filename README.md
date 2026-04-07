@@ -72,3 +72,10 @@ Write a function that goes through a binary tree using post-order traversal.
 - Prototype: `void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));`
 - If `tree` or `func` is `NULL`, the function does nothing
 - File: `8-binary_tree_postorder.c`
+
+## Task 10: Depth
+Write a function that measures the depth of a node in a binary tree.
+
+- Prototype: `size_t binary_tree_depth(const binary_tree_t *tree);`
+- If `tree` is `NULL`, returns `0`
+- File: `10-binary_tree_depth.c`
