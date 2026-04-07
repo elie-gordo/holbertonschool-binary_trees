@@ -87,3 +87,10 @@ Write a function that counts the leaves in a binary tree.
 - If `tree` is `NULL`, returns `0`
 - A `NULL` pointer is not a leaf
 - File: `12-binary_tree_leaves.c`
+
+## Task 14: Balance factor
+Write a function that measures the balance factor of a binary tree.
+
+- Prototype: `int binary_tree_balance(const binary_tree_t *tree);`
+- If `tree` is `NULL`, returns `0`
+- File: `14-binary_tree_balance.c`
