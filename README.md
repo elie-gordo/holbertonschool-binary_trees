@@ -101,3 +101,11 @@ Write a function that checks if a binary tree is perfect.
 - Prototype: `int binary_tree_is_perfect(const binary_tree_t *tree);`
 - If `tree` is `NULL`, returns `0`
 - File: `16-binary_tree_is_perfect.c`
+
+## Task 18: Uncle
+Write a function that finds the uncle of a node.
+
+- Prototype: `binary_tree_t *binary_tree_uncle(binary_tree_t *node);`
+- If `node` is `NULL`, returns `NULL`
+- If `node` has no uncle, returns `NULL`
+- File: `18-binary_tree_uncle.c`
