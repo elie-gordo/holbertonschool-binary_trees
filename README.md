@@ -65,3 +65,10 @@ Write a function that goes through a binary tree using pre-order traversal.
 - Prototype: `void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));`
 - If `tree` or `func` is `NULL`, the function does nothing
 - File: `6-binary_tree_preorder.c`
+
+## Task 8: Post-order traversal
+Write a function that goes through a binary tree using post-order traversal.
+
+- Prototype: `void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));`
+- If `tree` or `func` is `NULL`, the function does nothing
+- File: `8-binary_tree_postorder.c`
