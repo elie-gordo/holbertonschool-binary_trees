@@ -94,3 +94,10 @@ Write a function that measures the balance factor of a binary tree.
 - Prototype: `int binary_tree_balance(const binary_tree_t *tree);`
 - If `tree` is `NULL`, returns `0`
 - File: `14-binary_tree_balance.c`
+
+## Task 16: Is perfect
+Write a function that checks if a binary tree is perfect.
+
+- Prototype: `int binary_tree_is_perfect(const binary_tree_t *tree);`
+- If `tree` is `NULL`, returns `0`
+- File: `16-binary_tree_is_perfect.c`
