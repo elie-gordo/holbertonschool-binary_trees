@@ -7,21 +7,42 @@
 
 /**
  * struct binary_tree_s - Binary tree node
+ *
  * @n: Integer stored in the node
  * @parent: Pointer to the parent node
  * @left: Pointer to the left child node
  * @right: Pointer to the right child node
  */
-typedef struct binary_tree_s
+struct binary_tree_s
 {
 	int n;
 	struct binary_tree_s *parent;
 	struct binary_tree_s *left;
 	struct binary_tree_s *right;
-} binary_tree_t;
+};
 
+typedef struct binary_tree_s binary_tree_t;
+
+/* --- Prototypes des fonctions --- */
+
+/* Task 0 */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+/* Task 1 */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
-void binary_tree_print(const binary_tree_t *tree);
+/* Task 2 */
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
+/* Task 3 */
+void binary_tree_delete(binary_tree_t *tree);
+/* Task 5 - AJOUTE LE ICI */
+int binary_tree_is_root(const binary_tree_t *node);
+
+/* Fonction de print (déjà fournie normalement) */
+void binary_tree_print(const binary_tree_t *);
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
+size_t binary_tree_height(const binary_tree_t *tree);
+size_t binary_tree_size(const binary_tree_t *tree);
+size_t binary_tree_nodes(const binary_tree_t *tree);
+int binary_tree_is_full(const binary_tree_t *tree);
+binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 
 #endif /* BINARY_TREES_H */
