@@ -4,8 +4,8 @@
 #include "binary_trees.h"
 
 /* Forward declaration */
-static void _binary_tree_print_recursive(const binary_tree_t *tree, char *prefix,
-		int is_left);
+static void _binary_tree_print_recursive(const binary_tree_t *tree,
+		char *prefix, int is_left);
 
 /**
  * binary_tree_print - Prints a binary tree
